@@ -13,7 +13,7 @@ class LabelInput(tk.Frame):
         label_args = label_args or {}
         self.variable = input_var
 
-        if input_class in (ttk.Checkbutton, ttk.Button, ttk.Radiobutton):
+        if input_class in (ttk.Button,):
             input_args["text"] = label
             input_args["variable"] = input_var
         else:
