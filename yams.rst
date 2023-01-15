@@ -1,10 +1,14 @@
                
 ===============
- Swapping Word 
-===============
+ Swapping Words With Python GUI 
+================================
 
-This program is set to manipulate words in phrases so as to transform them in a way that it is in disorder but still readable. The first and the last letter of the words are preserved. 
-The GUI presents two texts frames and a swap action button, that transform the text.
+This program is set to manipulate words in phrases so as to transform them in a way that it is in disorder but still readable by a human brain. In fact, the first and the last letter of the words are preserved. This seems unorthodox but as long as the first and the last letter stay the same in a word, the brain can predict the right word, whatever its letters order.
+Here is a short presentation of Yams, my program to transform a phrase.
+Coded in Python with Tkinter module, it is also released in version 0.01, for Windows Systems, the source code is on GitHub.
+
+The application presents two texts frames and a swap action button, that transforms the text.
+
 
 
  Class Diagram 
@@ -69,7 +73,7 @@ void {method} swap(String)
  The swap function 
 -------------------
 
-This function take the string written in the text frame, when the swap button is clicked, then the swap function make its actions to return a new string in the swapped text frame.
+This function takes the string written in the text frame. When the swap button is clicked, then the swap function makes its actions to return a new swapped string in the swapped text frame.
 
  Activity Diagram 
 ------------------
