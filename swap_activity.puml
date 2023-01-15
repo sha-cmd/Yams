@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:tkinter.Button.on_click();
+:swap(string: String);
+if (string lenght <= 1) then (true)
+
+else (false)
+    :finditer non-word chars;
+    :save their\n{index:value};
+    :replace non-word\nchars by a space;
+    :finditer words\nof 4 chars;
+    :swap middle\nletters in words;
+    :replace non-word chars\nat the right index position;
+
+endif
+:return the string;
+stop
+
+@enduml

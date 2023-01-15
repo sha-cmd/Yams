@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class tkinter.Button
+class tkinter.Frame
+class tkinter.Label
+class tkinter.Tk
+class Application
+interface LabelInput
+class SwappedText
+class Text
+
+tkinter.Tk <|-- Application
+tkinter.Frame <|-- Text
+tkinter.Frame <|-- SwappedText
+tkinter.Frame <|-- LabelInput
+
+Application --* Text
+Application --* SwappedText
+Application --* tkinter.Button
+Application --o tkinter.Label
+
+LabelInput o-- Text
+LabelInput o-- SwappedText
+
+object Application {
+class tkinter.Label
+class SwappedText
+class Text
+class tkinter.Button
+{method} on_click()
+}
+
+interface LabelInput {
+class tkinter.Label
+{method} grid()
+{method} get()
+{method} set()
+}
+
+class Text {
+Collection: class LabelInput
+String {method} get()
+String {method} reset()
+}
+
+class SwappedText {
+Collection: class LabelInput
+String {method} get()
+void {method} reset(String)
+void {method} swap(String)
+}
+
+@enduml
