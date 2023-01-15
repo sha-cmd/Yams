@@ -1,5 +1,5 @@
-               
-===============
+                                
+================================
  Swapping Words With Python GUI 
 ================================
 
@@ -8,7 +8,6 @@ Here is a short presentation of Yams, my program to transform a phrase.
 Coded in Python with Tkinter module, it is also released in version 0.01, for Windows Systems, the source code is on GitHub.
 
 The application presents two texts frames and a swap action button, that transforms the text.
-
 
 
  Class Diagram 
