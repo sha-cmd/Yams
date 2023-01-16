@@ -144,5 +144,5 @@ def swap(self, string):
 Conclusion
 ----------
 
-You can found this program at this page https://github.com/sha-cmd/Yams on GitHub. There is also a setup file for installing it on Windows.
+You can found this program at this page https://github.com/sha-cmd/Yams on GitHub. There is also a [setup file](https://github.com/sha-cmd/Yams/blob/master/setup.exe) for installing it on Windows.
 
